@@ -24,11 +24,11 @@ body {
     height: 100%;
     width: 100%; }
 
-#colorlib-wrapper {
+#sayem-wrapper {
   height: 100%;
   width: 100%;
   overflow: hidden; }
-  #colorlib-wrapper > div {
+  #sayem-wrapper > div {
     width: 100%;
     height: 100%;
     overflow-y: hidden; }
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fcfcfc;
   background: #b7c2c2; }
 
-#colorlib-page {
+#sayem-page {
   position: relative;
   -webkit-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -moz-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -86,14 +86,14 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1); }
-  .menu-show #colorlib-page {
+  .menu-show #sayem-page {
     -webkit-transform: scale(0.99);
     -moz-transform: scale(0.99);
     -ms-transform: scale(0.99);
     -o-transform: scale(0.99);
     transform: scale(0.99);
     position: relative; }
-    .menu-show #colorlib-page:after {
+    .menu-show #sayem-page:after {
       position: absolute;
       top: 0;
       bottom: 0;
@@ -102,10 +102,10 @@ h1, h2, h3, h4, h5, h6 {
       content: '';
       background: rgba(0, 0, 0, 0.4); }
   @media screen and (max-width: 768px) {
-    #colorlib-page {
+    #sayem-page {
       padding-top: 5em; } }
 
-#colorlib-main-nav {
+#sayem-main-nav {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -130,9 +130,9 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(0);
   overflow-y: scroll; }
   @media screen and (max-width: 768px) {
-    #colorlib-main-nav {
+    #sayem-main-nav {
       width: 300px; } }
-  #colorlib-main-nav .colorlib-nav-toggle {
+  #sayem-main-nav .sayem-nav-toggle {
     position: absolute;
     top: 5px;
     right: 40px;
@@ -151,26 +151,26 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
-    #colorlib-main-nav .colorlib-nav-toggle i {
+    #sayem-main-nav .sayem-nav-toggle i {
       top: 18px !important;
       left: 0 !important;
       margin: 0 !important;
       padding: 0 !important;
       line-height: 0;
       text-indent: 0; }
-    #colorlib-main-nav .colorlib-nav-toggle.show {
+    #sayem-main-nav .sayem-nav-toggle.show {
       visibility: visible;
       opacity: 1; }
-    #colorlib-main-nav .colorlib-nav-toggle:hover {
+    #sayem-main-nav .sayem-nav-toggle:hover {
       background: black; }
-      #colorlib-main-nav .colorlib-nav-toggle:hover i::before, #colorlib-main-nav .colorlib-nav-toggle:hover i::after {
+      #sayem-main-nav .sayem-nav-toggle:hover i::before, #sayem-main-nav .sayem-nav-toggle:hover i::after {
         content: '';
         width: 20px;
         height: 1px;
         background: #fff;
         position: absolute;
         left: 0; }
-  .menu-show #colorlib-main-nav {
+  .menu-show #sayem-main-nav {
     visibility: visible;
     opacity: 1;
     -webkit-transform: scale(1);
@@ -178,18 +178,18 @@ h1, h2, h3, h4, h5, h6 {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1); }
-  #colorlib-main-nav ul {
+  #sayem-main-nav ul {
     padding: 0;
     margin: 0 0 3em 0; }
     @media screen and (max-width: 768px) {
-      #colorlib-main-nav ul {
+      #sayem-main-nav ul {
         padding: 20px 0 0 0; } }
-    #colorlib-main-nav ul li {
+    #sayem-main-nav ul li {
       padding: 0;
       margin: 0;
       list-style: none;
       text-align: left; }
-      #colorlib-main-nav ul li a {
+      #sayem-main-nav ul li a {
         display: block;
         color: black;
         font-size: 14px;
@@ -197,32 +197,32 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         font-weight: 400; }
         @media screen and (max-width: 768px) {
-          #colorlib-main-nav ul li a {
+          #sayem-main-nav ul li a {
             font-size: 16px; } }
-        #colorlib-main-nav ul li a:hover, #colorlib-main-nav ul li a:active, #colorlib-main-nav ul li a:focus {
+        #sayem-main-nav ul li a:hover, #sayem-main-nav ul li a:active, #sayem-main-nav ul li a:focus {
           color: black;
           outline: none;
           text-decoration: none; }
-      #colorlib-main-nav ul li.active a {
+      #sayem-main-nav ul li.active a {
         color: #CA82F8; }
-  #colorlib-main-nav .form-group {
+  #sayem-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
     width: 100%; }
     @media screen and (max-width: 480px) {
-      #colorlib-main-nav .form-group {
+      #sayem-main-nav .form-group {
         width: 100%; } }
-    #colorlib-main-nav .form-group input::-webkit-input-placeholder {
+    #sayem-main-nav .form-group input::-webkit-input-placeholder {
       color: #333333; }
-    #colorlib-main-nav .form-group input::-moz-input-placeholder {
+    #sayem-main-nav .form-group input::-moz-input-placeholder {
       color: #333333; }
-    #colorlib-main-nav .form-group input::-ms-input-placeholder {
+    #sayem-main-nav .form-group input::-ms-input-placeholder {
       color: #333333; }
-    #colorlib-main-nav .form-group input::-o-input-placeholder {
+    #sayem-main-nav .form-group input::-o-input-placeholder {
       color: #333333; }
-    #colorlib-main-nav .form-group input::input-placeholder {
+    #sayem-main-nav .form-group input::input-placeholder {
       color: #333333; }
-  #colorlib-main-nav #search {
+  #sayem-main-nav #search {
     font-size: 14px;
     width: 100%;
     padding-right: 3em;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #f2f2f2;
     background: #fafafa;
     color: #333333 !important; }
-  #colorlib-main-nav button {
+  #sayem-main-nav button {
     position: absolute;
     top: 0;
     right: -4px;
@@ -242,14 +242,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     border: none;
     padding: 16px; }
-  #colorlib-main-nav #email {
+  #sayem-main-nav #email {
     font-size: 18px;
     width: 100%;
     border: none;
     border: 2px solid #fff;
     background: #fff;
     color: #333333 !important; }
-  #colorlib-main-nav .gallery {
+  #sayem-main-nav .gallery {
     float: left;
     width: 50%;
     height: 150px;
@@ -258,12 +258,12 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 0;
     text-decoration: none; }
     @media screen and (max-width: 768px) {
-      #colorlib-main-nav .gallery {
+      #sayem-main-nav .gallery {
         width: 25%; } }
     @media screen and (max-width: 480px) {
-      #colorlib-main-nav .gallery {
+      #sayem-main-nav .gallery {
         width: 50%; } }
-    #colorlib-main-nav .gallery:after {
+    #sayem-main-nav .gallery:after {
       position: absolute;
       top: 0;
       left: 0;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s; }
-    #colorlib-main-nav .gallery span {
+    #sayem-main-nav .gallery span {
       display: table-cell;
       vertical-align: middle;
       height: 150px;
@@ -284,12 +284,12 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transition: 1s;
       -o-transition: 1s;
       transition: 1s; }
-      #colorlib-main-nav .gallery span i {
+      #sayem-main-nav .gallery span i {
         color: #fff;
         font-size: 20px; }
-    #colorlib-main-nav .gallery:hover:after, #colorlib-main-nav .gallery:focus:after {
+    #sayem-main-nav .gallery:hover:after, #sayem-main-nav .gallery:focus:after {
       opacity: 1; }
-    #colorlib-main-nav .gallery:hover span, #colorlib-main-nav .gallery:focus span {
+    #sayem-main-nav .gallery:hover span, #sayem-main-nav .gallery:focus span {
       opacity: 1; }
 
 header {
@@ -303,9 +303,9 @@ header {
   @media screen and (max-width: 768px) {
     header {
       padding: 2em 0; } }
-  header .colorlib-navbar-brand {
+  header .sayem-navbar-brand {
     float: left; }
-    header .colorlib-navbar-brand .colorlib-logo {
+    header .sayem-navbar-brand .sayem-logo {
       font-size: 20px;
       text-transform: uppercase;
       color: #000;
@@ -316,37 +316,37 @@ header {
       display: block;
       text-align: center;
       background: #000; }
-      header .colorlib-navbar-brand .colorlib-logo span {
+      header .sayem-navbar-brand .sayem-logo span {
         display: block;
         margin-bottom: 0;
         line-height: 1.2;
         color: #fff; }
-      header .colorlib-navbar-brand .colorlib-logo:hover {
+      header .sayem-navbar-brand .sayem-logo:hover {
         text-decoration: none !important; }
-      header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
+      header .sayem-navbar-brand .sayem-logo:active, header .sayem-navbar-brand .sayem-logo:focus {
         outline: none;
         text-decoration: none; }
 
-#colorlib-services,
-#colorlib-contact,
-#colorlib-work,
-#colorlib-blog,
-#colorlib-testimony,
-#colorlib-progress,
-#colorlib-contact,
-#colorlib-about {
+#sayem-services,
+#sayem-contact,
+#sayem-work,
+#sayem-blog,
+#sayem-testimony,
+#sayem-progress,
+#sayem-contact,
+#sayem-about {
   padding: 10em 0;
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
-    #colorlib-services,
-    #colorlib-contact,
-    #colorlib-work,
-    #colorlib-blog,
-    #colorlib-testimony,
-    #colorlib-progress,
-    #colorlib-contact,
-    #colorlib-about {
+    #sayem-services,
+    #sayem-contact,
+    #sayem-work,
+    #sayem-blog,
+    #sayem-testimony,
+    #sayem-progress,
+    #sayem-contact,
+    #sayem-about {
       padding: 5em 0; } }
 
 .rotate {
@@ -781,13 +781,13 @@ header {
         height: 1px;
         background: #000; }
 
-#colorlib-blog .owl-carousel {
+#sayem-blog .owl-carousel {
   z-index: 0; }
 
-#colorlib-blog .owl-carousel .owl-stage-outer {
+#sayem-blog .owl-carousel .owl-stage-outer {
   z-index: -1; }
 
-#colorlib-blog .owl-theme .owl-controls {
+#sayem-blog .owl-theme .owl-controls {
   margin-top: -10px;
   z-index: 1;
   position: absolute;
@@ -796,7 +796,7 @@ header {
   right: 0;
   margin-top: -30px; }
 
-#colorlib-blog .owl-theme .owl-controls .owl-nav [class*=owl-] {
+#sayem-blog .owl-theme .owl-controls .owl-nav [class*=owl-] {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -808,7 +808,7 @@ header {
   background: #fff;
   padding: 5px 5px;
   opacity: 1; }
-  #colorlib-blog .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
+  #sayem-blog .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
     background: transparent;
     color: #000;
     -webkit-box-shadow: none;
@@ -920,12 +920,12 @@ header {
   .article:hover .meta {
     background: #fff; }
 
-#colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
-#colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
+#sayem-testimony .owl-theme .owl-dots .owl-dot.active span,
+#sayem-testimony .owl-theme .owl-dots .owl-dot:hover span {
   height: 3px;
   background: #000; }
 
-#colorlib-testimony .owl-theme .owl-dots .owl-dot span {
+#sayem-testimony .owl-theme .owl-dots .owl-dot span {
   width: 30px;
   height: 2px;
   background: #e6e6e6;
@@ -1104,17 +1104,17 @@ header {
       visibility: visible;
       opacity: 1; }
 
-.colorlib-nav-toggle {
+.sayem-nav-toggle {
   cursor: pointer;
   text-decoration: none; }
-  .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
+  .sayem-nav-toggle.active i::before, .sayem-nav-toggle.active i::after {
     background: #000; }
-  .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
+  .sayem-nav-toggle.dark.active i::before, .sayem-nav-toggle.dark.active i::after {
     background: #000; }
-  .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
+  .sayem-nav-toggle:hover, .sayem-nav-toggle:focus, .sayem-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
-  .colorlib-nav-toggle i {
+  .sayem-nav-toggle i {
     position: relative;
     display: -moz-inline-stack;
     display: inline-block;
@@ -1130,10 +1130,10 @@ header {
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .menu-show .colorlib-nav-toggle i {
+    .menu-show .sayem-nav-toggle i {
       background: #000;
       color: #fff; }
-    .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+    .sayem-nav-toggle i::before, .sayem-nav-toggle i::after {
       content: '';
       width: 20px;
       height: 2px;
@@ -1143,37 +1143,37 @@ header {
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
-      .menu-show .colorlib-nav-toggle i::before, .menu-show .colorlib-nav-toggle i::after {
+      .menu-show .sayem-nav-toggle i::before, .menu-show .sayem-nav-toggle i::after {
         background: #333333; }
-  .colorlib-nav-toggle.dark i {
+  .sayem-nav-toggle.dark i {
     position: relative;
     color: #fff;
     background: #fff;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
+    .sayem-nav-toggle.dark i::before, .sayem-nav-toggle.dark i::after {
       background: #fff;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
 
-.colorlib-nav-toggle i::before {
+.sayem-nav-toggle i::before {
   top: -7px; }
 
-.colorlib-nav-toggle i::after {
+.sayem-nav-toggle i::after {
   bottom: -7px; }
 
-.colorlib-nav-toggle:hover i::before {
+.sayem-nav-toggle:hover i::before {
   top: -10px; }
 
-.colorlib-nav-toggle:hover i::after {
+.sayem-nav-toggle:hover i::after {
   bottom: -10px; }
 
-.colorlib-nav-toggle.active i {
+.sayem-nav-toggle.active i {
   background: transparent; }
 
-.colorlib-nav-toggle.active i::before {
+.sayem-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1181,7 +1181,7 @@ header {
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-.colorlib-nav-toggle.active i::after {
+.sayem-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1189,7 +1189,7 @@ header {
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg); }
 
-.colorlib-nav-toggle {
+.sayem-nav-toggle {
   float: right;
   z-index: 1003;
   position: relative;
@@ -1198,7 +1198,7 @@ header {
   cursor: pointer;
   margin-top: 0; }
   @media screen and (max-width: 768px) {
-    .colorlib-nav-toggle {
+    .sayem-nav-toggle {
       display: block;
       top: 0px; } }
 
@@ -1256,10 +1256,10 @@ input[type="text"] {
 .form-group {
   margin-bottom: 30px; }
 
-.colorlib-social-icons a:hover, .colorlib-social-icons a:focus {
+.sayem-social-icons a:hover, .sayem-social-icons a:focus {
   text-decoration: none !important; }
 
-.colorlib-social-icons i {
+.sayem-social-icons i {
   font-size: 24px;
   color: #CA82F8; }
 
@@ -1274,9 +1274,9 @@ input[type="text"] {
     margin-bottom: 2em; }
   #footer p:last-child {
     margin-bottom: 0; }
-  #footer p.colorlib-social-icons a:hover, #footer p.colorlib-social-icons a:focus {
+  #footer p.sayem-social-icons a:hover, #footer p.sayem-social-icons a:focus {
     text-decoration: none !important; }
-  #footer p.colorlib-social-icons i {
+  #footer p.sayem-social-icons i {
     font-size: 24px;
     color: #CA82F8; }
   #footer p .block {
